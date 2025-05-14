@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void MySQL(View view) {
+    public void java(View view) {
         try{
             Intent intent = new Intent(MainActivity.this, QuestionActivity4.class);
             startActivity(intent);
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void Kotlin(View view) {
+    public void MySQL(View view) {
 
         try{
             Intent intent = new Intent(MainActivity.this, QuestionActivity5.class);
@@ -206,14 +206,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void java(View view) {
-
-        try{
-            Intent intent = new Intent(MainActivity.this, QuestionActivity6.class);
-            startActivity(intent);
-        }catch(Exception e){
-            e.printStackTrace();
-            Toast.makeText(this,"Error navigating to the nextpage:"+e.getMessage(),Toast.LENGTH_LONG).show();
-        }
-    }
 }

@@ -294,46 +294,8 @@
             </androidx.cardview.widget.CardView>
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:onClick="Kotlin"
-                tools:ignore="DuplicateSpeakableTextCheck">
 
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:contentDescription="TODO"
-                    tools:ignore="HardcodedText">
-
-
-                    <TextView
-                        android:id="@+id/textview9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/airlane"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:contentDescription="TODO"
-                        android:fontFamily="sans-serif-condensed-medium"
-                        android:text="Kotlin"
-                        android:textSize="24sp" />
-
-                    <ImageView
-                        android:id="@+id/airlane"
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp"
-                        android:importantForAccessibility="no"
-                        android:src="@drawable/kotlin" />
-
-
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
 
 
 

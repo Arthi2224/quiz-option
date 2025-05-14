@@ -36,9 +36,9 @@ public class QuestionActivity5 extends AppCompatActivity {
     String[] opt = {
 
             "INSERT", "DELETE", "SELECT","UPDATE",
-            "order by","delete","remove","drp table",
-            "sort", "order by", "order", " sort by",
-            "unique", "Distinct", "single", "undo",
+            "order by","delete","remove","DROP TABLE",
+            "sort", "ORDER BY", "order", " sort by",
+            "unique", "DISTINCT", "single", "undo",
             "DROP TABLE customers;", " TRUNCATE TABLE customers;", "DELETE TABLE customers;" , "REMOVE ALL FROM customers;"
     };
 
@@ -68,7 +68,7 @@ public class QuestionActivity5 extends AppCompatActivity {
 
         questionnumber = findViewById(R.id.DispName);
         submitbutton = findViewById(R.id.button3);
-        submitbutton = findViewById(R.id.buttonquit);
+        quitbutton = findViewById(R.id.buttonquit);
         tv = findViewById(R.id.tvque);
 
 
