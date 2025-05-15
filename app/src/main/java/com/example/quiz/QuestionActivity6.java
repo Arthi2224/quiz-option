@@ -75,7 +75,7 @@ public class QuestionActivity6 extends AppCompatActivity {
 
         questionnumber = findViewById(R.id.DispName);
         submitbutton = findViewById(R.id.button3);
-        submitbutton = findViewById(R.id.buttonquit);
+        quitbutton = findViewById(R.id.buttonquit);
         tv = findViewById(R.id.tvque);
 
 
